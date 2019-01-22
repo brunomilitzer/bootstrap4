@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale = 1, shrink-to-fit=no">	
+	<title>Popover</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<style type="text/css">
+	.row {
+		margin-bottom: 10px;
+	}
+</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<button type="button" class="btn btn-danger btn-lg" data-toggle="popover" title="Titulo do Popover" data-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">
+					Clique para abrir o popover
+				</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">
+					Popover - Top
+				</button>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi sit amet mauris commodo quis imperdiet massa tincidunt nunc. Tristique senectus et netus et. Eu ultrices vitae auctor eu. Sit amet est placerat in egestas erat imperdiet sed. Arcu non sodales neque sodales ut. Commodo ullamcorper a lacus vestibulum sed. Elit scelerisque mauris pellentesque pulvinar pellentesque. Nec tincidunt praesent semper feugiat. Metus dictum at tempor commodo ullamcorper a. Libero nunc consequat interdum varius sit amet. Turpis egestas pretium aenean pharetra magna ac placerat. In massa tempor nec feugiat nisl. Scelerisque eu ultrices vitae auctor eu augue ut lectus. Sit amet dictum sit amet justo donec enim diam. Bibendum neque egestas congue quisque egestas diam. Convallis posuere morbi leo urna. Arcu felis bibendum ut tristique. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare. Pulvinar etiam non quam lacus.</p>
+				<p>In arcu cursus euismod quis viverra. Integer vitae justo eget magna. Feugiat in ante metus dictum at. Pellentesque id nibh tortor id aliquet. Gravida dictum fusce ut placerat orci nulla pellentesque dignissim enim. Dignissim suspendisse in est ante in nibh mauris. Quis blandit turpis cursus in hac habitasse platea dictumst. Suspendisse faucibus interdum posuere lorem ipsum dolor. Eget velit aliquet sagittis id consectetur purus ut faucibus. Purus semper eget duis at tellus at urna. Est sit amet facilisis magna. Velit ut tortor pretium viverra suspendisse potenti nullam ac. Euismod in pellentesque massa placerat duis ultricies lacus. Venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Eu tincidunt tortor aliquam nulla facilisi. Euismod in pellentesque massa placerat duis ultricies lacus sed turpis. Ullamcorper a lacus vestibulum sed. Rutrum quisque non tellus orci ac auctor. Orci dapibus ultrices in iaculis. Et malesuada fames ac turpis egestas integer.</p>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script>
+		$(function(){
+			$('[data-toggle="popover"]').popover()
+		})
+	</script>
+</body>
+</html>
